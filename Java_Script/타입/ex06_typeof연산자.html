@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>typeof 연산자</h1>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("result").innerHTML = (typeof 10) + "<br>";
+        document.getElementById("result").innerHTML += (typeof "문자열") + "<br>";
+        document.getElementById("result").innerHTML += (typeof true) + "<br>";
+        document.getElementById("result").innerHTML += (typeof undefined) + "<br>";
+        document.getElementById("result").innerHTML += (typeof null);
+
+    </script>
+</body>
+</html>
